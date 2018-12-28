@@ -132,5 +132,5 @@ def train_cnn():
 			logging.critical('The training is complete')
 
 if __name__ == '__main__':
-	# python3 train.py ./data/consumer_complaints.csv.zip ./parameters.json
+	# python3 train.py ./data/nfl_chatbot_labelled_messages.csv.zip ./parameters.json
 	train_cnn()
